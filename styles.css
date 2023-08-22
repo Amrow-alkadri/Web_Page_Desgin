@@ -1,0 +1,95 @@
+/* Reset default styles */
+html, body, ul, li, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #000000;
+  color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+nav ul {
+  list-style: none;
+  background-color: #666;
+  padding: 10px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  margin-top: auto;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  header h1 {
+    font-size: 20px;
+  }
+
+  nav ul li a {
+    padding: 3px;
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  footer {
+    font-size: 12px;
+  }
+}

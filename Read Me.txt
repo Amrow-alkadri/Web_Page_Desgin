@@ -1,0 +1,9 @@
+This is Amro Alkadri.
+And this is my webpersonalpage.
+I created this using HTML & CSS.
+It has 4 pages First one is The Index which is the welcoming page.
+Second one is the ABOUT page which is the about me page.
+Third one is Contact that has my email to contact me.
+Last one is the experience which is the experience I had from the jobs before.
+**------------------------------------------------------------------------------**
+Please Open Index file to review the page.
